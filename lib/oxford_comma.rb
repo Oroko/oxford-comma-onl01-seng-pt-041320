@@ -23,7 +23,7 @@ def oxford_comma(array)
        word = array.pop
        array.join(", ") << ", and " + word
   else
-    array.join
+      array.join
   end
     
 end
