@@ -19,7 +19,7 @@ def oxford_comma(array)
      result = array.join
   elsif array.length == 2 
      result = array.join(" and ")  
-  elsif array.length == 3
+  elsif array.length >= 3
        word = array.pop
        array.join(", ") << ", and " + word
   else
