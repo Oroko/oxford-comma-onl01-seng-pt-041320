@@ -7,9 +7,9 @@ def oxford_comma(array)
   result = array.join(" and ")
 end
 
-def oxford_comma(array)
+# def oxford_comma(array)
   
-  word = array.pop 
-  array.join(",") << " and " + word
+#   word = array.pop 
+#   array.join(",") << " and " + word
  
-end
+# end
