@@ -1,18 +1,18 @@
-def oxford_comma(array)
-  result = array.join
+# def oxford_comma(array)
+#   result = array.join
   
-end
+# end
 
-def oxford_comma(array)
-  result = array.join(" and ")
-end
+# def oxford_comma(array)
+#   result = array.join(" and ")
+# end
 
-def oxford_comma(array)
+# def oxford_comma(array)
   
-  word = array.pop 
-  result = array.join(" , ") << " and " + word
+#   word = array.pop 
+#   result = array.join(" , ") << " and " + word
  
-end
+# end
 
 def oxford_comma(array)
   if array.length == 1 
