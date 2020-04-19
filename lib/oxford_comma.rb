@@ -20,6 +20,8 @@ def oxford_comma(array)
   elsif array.length == 2 
      result = array.join(" and ")  
   else
-    
+      word = array.pop 
+      result = array.join(" , ") << " and " + word
+  end
     
 end
