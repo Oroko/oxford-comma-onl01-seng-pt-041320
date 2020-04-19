@@ -22,8 +22,7 @@ def oxford_comma(array)
   elsif array.length >= 3
        word = array.pop
        array.join(", ") << ", and " + word
-  # else
-  #     array.join
+
   end
     
 end
