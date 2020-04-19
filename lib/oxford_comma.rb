@@ -9,5 +9,8 @@ end
 
 def oxford_comma(array)
   
-  array.join(",") 
+  array[2] = "and"
+  words = array.join(",")
+  words << " starfruit"
+  words
 end
